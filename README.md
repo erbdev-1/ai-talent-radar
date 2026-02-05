@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎙️ AI Talent Radar - AI-Driven Interview Platform
 
-## Getting Started
+**AI Talent Radar** is a cutting-edge SaaS platform designed to automate the hiring process using real-time AI voice agents. By leveraging **Next.js 15**, **Vapi AI**, and **Supabase**, this application conducts seamless, natural-sounding candidate screenings and initial interviews without human intervention.
 
-First, run the development server:
+---
 
+## ✨ Key Features
+
+* **🤖 AI Voice Interactivity:** Real-time, low-latency voice interviews powered by **Vapi AI**.
+* **📅 Automated Scheduling:** Effortlessly schedule and manage AI interviews with candidates.
+* **📞 Phone Screening Calls:** Create dedicated phone-based screening workflows to filter talent faster.
+* **💳 Subscription & Billing:** Integrated payment system using **PayPal** for credit-based or subscription plans.
+* **📊 Insightful Dashboard:** A clean, user-friendly interface to track created interviews, schedules, and billing history.
+* **🔒 Secure Data Management:** Reliable data storage and authentication handled by **Supabase**.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** [Next.js 15](https://nextjs.org/) (App Router), React 18/19
+* **Voice AI Engine:** [Vapi AI](https://vapi.ai/)
+* **Backend & Auth:** [Supabase](https://supabase.com/)
+* **Styling:** Tailwind CSS 4, Radix UI (Primitives), Lucide React (Icons)
+* **Payments:** @paypal/react-paypal-js
+* **Animations:** Framer Motion
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/your-username/ai-talent-radar.git](https://github.com/your-username/ai-talent-radar.git)
+cd ai-talent-radar
