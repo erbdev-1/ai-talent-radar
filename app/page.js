@@ -80,14 +80,14 @@ export default function Home() {
                     <HeroVideoDialog
                       className="block dark:hidden"
                       animationStyle="top-in-bottom-out"
-                      videoSrc="https://www.youtube.com/embed/zcYM_Gqoph4"
+                      videoSrc=""
                       thumbnailSrc="/home.png"
                       thumbnailAlt="Hero Video"
                     />
                     <HeroVideoDialog
                       className="hidden dark:block"
                       animationStyle="top-in-bottom-out"
-                      videoSrc="https://www.youtube.com/embed/zcYM_Gqoph4"
+                      videoSrc=""
                       thumbnailSrc="/home.png"
                       thumbnailAlt="Hero Video"
                     />
