@@ -9,7 +9,9 @@ function Provider({ children }) {
 
   return (
     <PayPalScriptProvider
-      options={{ clientId: process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID?.trim() }}
+      options={{
+        "client-id": process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID?.trim(),
+      }}
     >
       <UserDetailContext.Provider value={{ user, setUser }}>
         <div>{children}</div>
